@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+scipy = "*"
+Pillow = "*"
+"jhwutils" = {git = "https://github.com/johnhw/jhwutils.git", editable = true}
+scikit-image = "*"
+torch = "*"
+torchvision = "*"
+torchsummary = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.12"
